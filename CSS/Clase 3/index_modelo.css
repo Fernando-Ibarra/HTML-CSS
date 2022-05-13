@@ -1,0 +1,17 @@
+/* Quitar el padding y margin por defecto */
+*{
+    /* box-sizing calculos automaticamente los valores de width
+    para que concuerden con el 100% */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    /* 20px arriba a abajo
+    35px derecha a izquierda */
+    padding: 20px 35px;
+}
