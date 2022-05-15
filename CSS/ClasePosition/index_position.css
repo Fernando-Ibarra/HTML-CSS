@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+section{
+    border: 2px black solid ;
+    width: 80%;
+    min-width: 420px;
+    max-width: 600px;
+    min-height: 500px;
+    margin: 50px auto;
+    border-radius: 30px;
+}
+.box{
+    background-color: red;
+    width: 40%; 
+    height: 100px;
+    background-color: bisque;
+    position: relative;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    right: auto;
+    bottom: 30px;
+    left: 200px;
+    border: 2px black solid;
+}
+.text{
+    padding: 10px;
+}
+.textt{
+    margin: 40px;
+}
