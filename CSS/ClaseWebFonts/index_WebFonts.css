@@ -1,0 +1,5 @@
+html{
+    /* Solo cargar 1 funte por proyecto
+    importarla siempre al head */
+    font-family: 'Roboto', sans-serif;
+}
